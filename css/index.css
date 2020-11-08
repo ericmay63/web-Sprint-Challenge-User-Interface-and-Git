@@ -28,8 +28,43 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-bottom:1rem;}
+
+nav{width: 170%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 2%;
+    font-size: 24px;
+    margin-bottom:1rem;
+margin-right:80%;
+}
+
+    
+
+
+
+
+.image {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+
 body {
-	line-height: 1;
+
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -69,6 +104,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top: 25px;
+    
 }
 
 .top-content {
@@ -201,18 +238,6 @@ p {
        align-items: center;
        justify-content: center;}      
 
-
-
-
-
-
-
-
-
-
-
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -245,4 +270,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-header {display: flex;}
