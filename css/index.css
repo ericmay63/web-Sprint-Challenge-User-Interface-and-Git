@@ -28,8 +28,43 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-bottom:1rem;}
+
+nav{width: 170%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 2%;
+    font-size: 24px;
+    margin-bottom:1rem;
+margin-right:80%;
+}
+
+    
+
+
+
+
+.image {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+
 body {
-	line-height: 1;
+
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -69,6 +104,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top: 25px;
+    
 }
 
 .top-content {
@@ -111,6 +148,95 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxone{background:teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxtwo{background:gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.boxthree{background:cadetblue;
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+
+.boxfour{background:coral;
+     width: 12.5%;
+     height: 100px;
+     margin: 20px 2.5%;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;}        
+
+.boxfive{background:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+     align-items: center;
+     justify-content: center;}
+
+.boxsix{background:forestgreen;
+    width: 12.5%;
+    height: 100px;
+     margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}  
+            
+.boxseven{background:darkorchid;
+     width: 12.5%;
+    height: 100px;
+     margin: 20px 2.5%;
+     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.boxeight{background:hotpink;
+     width: 12.5%;
+     height: 100px;
+    margin: 20px 2.5%;
+     color: white;
+     display: flex;
+    align-items: center;
+    justify-content: center;}
+
+    .boxnine{background:indigo;
+        width: 12.5%;
+        height: 100px;
+       margin: 20px 2.5%;
+        color: white;
+        display: flex;
+       align-items: center;
+       justify-content: center;}   
+
+       .boxten{background:dodgerblue;
+        width: 12.5%;
+        height: 100px;
+       margin: 20px 2.5%;
+        color: white;
+        display: flex;
+       align-items: center;
+       justify-content: center;}      
 
 .bottom-content {
     display: flex;
@@ -144,3 +270,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container about-page{display:flex;
+align-self: flex-start;
+
+}
+
+
+
