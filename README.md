@@ -103,4 +103,3 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
 
-C:\Users\Aaron's\lambdawork\web-Sprint-Challenge-User-Interface-and-Git\img\jumbo-about.png

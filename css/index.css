@@ -269,7 +269,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
 
+.container about-page{display:flex;
+align-self: flex-start;
 
 }
 
