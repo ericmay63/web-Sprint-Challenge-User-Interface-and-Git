@@ -51,18 +51,6 @@ table {
     box-sizing: border-box;
 }
 
-.box box1 {color:teal;}
-.box box2 {color:gold;}
-.box box3 {color:cadetblue;}
-.box box4 {color:coral;}
-.box box5 {color:crimson;}
-.box box6 {color:forestgreen;}
-.box box7 {color:darkorchid;}
-.box box8 {color:hotpink;}
-.box box9 {color:indigo;}
-.box box10 {color:dodgerblue;}
-
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -123,6 +111,107 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxone{background:teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxtwo{background:gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.boxthree{background:cadetblue;
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+
+.boxfour{background:coral;
+     width: 12.5%;
+     height: 100px;
+     margin: 20px 2.5%;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;}        
+
+.boxfive{background:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+     align-items: center;
+     justify-content: center;}
+
+.boxsix{background:forestgreen;
+    width: 12.5%;
+    height: 100px;
+     margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}  
+            
+.boxseven{background:darkorchid;
+     width: 12.5%;
+    height: 100px;
+     margin: 20px 2.5%;
+     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.boxeight{background:hotpink;
+     width: 12.5%;
+     height: 100px;
+    margin: 20px 2.5%;
+     color: white;
+     display: flex;
+    align-items: center;
+    justify-content: center;}
+
+    .boxnine{background:indigo;
+        width: 12.5%;
+        height: 100px;
+       margin: 20px 2.5%;
+        color: white;
+        display: flex;
+       align-items: center;
+       justify-content: center;}   
+
+       .boxten{background:dodgerblue;
+        width: 12.5%;
+        height: 100px;
+       margin: 20px 2.5%;
+        color: white;
+        display: flex;
+       align-items: center;
+       justify-content: center;}      
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bottom-content {
     display: flex;
