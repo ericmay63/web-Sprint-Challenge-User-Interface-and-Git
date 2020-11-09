@@ -271,10 +271,23 @@ footer nav a {
     text-decoration: none;
 }
 
-.container about-page{display:flex;
-align-self: flex-start;
+
+.container about-page{
+    max-width: 1000px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
 
 }
+
+section article{
+    width: 45%;
+    background:red;
+}
+
 
 
 
